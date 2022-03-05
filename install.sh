@@ -20,10 +20,6 @@ echo 'python-pip lib'
 
 pip2 install mechanize
 
-echo 'cd'
-
-cd facebook_crack
-
 echo 'premissions'
 
 chmod +x facebook_crack.py
@@ -51,8 +47,6 @@ wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList
 echo 'python lib'
 
 pip2 install  mechanize
-
-cd facebook_crack
 
 echo 'premissions'
 
